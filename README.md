@@ -1,6 +1,10 @@
+About
+=====
+Training material for C# on Mac OS
+
 Install
 =======
-IDE: Visual Studio Code (only editing)
+IDE: Visual Studio Code (only editing) (optional)
 - https://code.visualstudio.com/
 
 Compiler: Mono
