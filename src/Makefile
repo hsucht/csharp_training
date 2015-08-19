@@ -1,10 +1,10 @@
-OUTPUT=$(shell mono helloworld.exe)
+OUTPUT=$(shell mono Helloworld.exe)
 
 test: compile run
 	@if [ "$(OUTPUT)" == "Hello, World!" ]; then echo success; fi
 
-compile: helloworld.cs
-	mcs helloworld.cs
+compile: Helloworld.cs
+	mcs Helloworld.cs
 
 run:
-	mono helloworld.exe
+	mono Helloworld.exe
